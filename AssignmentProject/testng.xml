@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+<listener class-name="com.edureka.pages.listeners"/>
+ <listener class-name="com.edureka.utilities.ExtentReporterNG"/>
+</listeners>
+  <test name="Test">
+
+    <classes>
+      <class name="com.edureka.pages.Login"/>
+        <class name="com.edureka.pages.Reserveflight"/>
+         <class name="com.edureka.pages.Sendmail"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

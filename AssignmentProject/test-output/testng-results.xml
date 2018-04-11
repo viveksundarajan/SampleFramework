@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53450" started-at="2018-04-10T16:03:02Z" finished-at="2018-04-10T16:03:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53450" started-at="2018-04-10T16:03:02Z" finished-at="2018-04-10T16:03:55Z">
+      <class name="com.edureka.pages.Sendmail">
+        <test-method status="PASS" signature="reportGeneration()[pri:0, instance:com.edureka.pages.Sendmail@53b32d7]" name="reportGeneration" is-config="true" duration-ms="5543" started-at="2018-04-10T21:33:56Z" finished-at="2018-04-10T21:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGeneration -->
+      </class> <!-- com.edureka.pages.Sendmail -->
+      <class name="com.edureka.pages.Login">
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.edureka.pages.Login@4883b407]" name="homePage" is-config="true" duration-ms="29920" started-at="2018-04-10T21:33:02Z" finished-at="2018-04-10T21:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="enterCredentials()[pri:0, instance:com.edureka.pages.Login@4883b407]" name="enterCredentials" duration-ms="3414" started-at="2018-04-10T21:33:32Z" finished-at="2018-04-10T21:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+      </class> <!-- com.edureka.pages.Login -->
+      <class name="com.edureka.pages.Reserveflight">
+        <test-method status="PASS" signature="bookDetails()[pri:0, instance:com.edureka.pages.Reserveflight@1bce4f0a]" name="bookDetails" duration-ms="20049" started-at="2018-04-10T21:33:35Z" finished-at="2018-04-10T21:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookDetails -->
+      </class> <!-- com.edureka.pages.Reserveflight -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

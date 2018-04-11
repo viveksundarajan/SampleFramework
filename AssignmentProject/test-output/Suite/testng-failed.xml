@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.edureka.pages.Reserveflight">
+        <methods>
+          <include name="bookDetails"/>
+        </methods>
+      </class> <!-- com.edureka.pages.Reserveflight -->
+      <class name="com.edureka.pages.Sendmail">
+        <methods>
+          <include name="reportGeneration"/>
+        </methods>
+      </class> <!-- com.edureka.pages.Sendmail -->
+      <class name="com.edureka.pages.Login">
+        <methods>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.edureka.pages.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
